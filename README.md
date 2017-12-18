@@ -1,6 +1,8 @@
 # Modular Admin Angular: Free Angular Project Dashboard based on [ModularAdmin](http://modularcode.github.io/modular-admin-html/) Bootstrap Theme. 
 
 
+![Screenshot](https://github.com/jadsonjs/modular-admin-angular/blob/master/modular-admin-angular/src/assets/modular-admin/assets/demo.png)
+
 
 ## 1.Getting Started
 
