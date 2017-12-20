@@ -3,9 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 /* Components of application */
 import { HomeComponent } from './home/home.component';
+import { FormsComponent } from './forms/forms.component';
 
 const routes: Routes = [
-     { path: '',          component: HomeComponent }
+     { path: '',          component: HomeComponent},
+     { path: 'forms',     component: FormsComponent}
 ];
 
 @NgModule({

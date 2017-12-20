@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { FormsComponent } from './forms/forms.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     SideBarComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
