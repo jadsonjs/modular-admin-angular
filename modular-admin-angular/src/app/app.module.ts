@@ -10,6 +10,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsComponent } from './forms/forms.component';
 
+import { EditorComponent } from './items/editor/editor.component';
+import { ListComponent }   from './items/list/list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FormsComponent } from './forms/forms.component';
     SideBarComponent,
     HeaderComponent,
     FooterComponent,
-    FormsComponent
+    FormsComponent,
+    ListComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
