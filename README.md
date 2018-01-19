@@ -1,8 +1,26 @@
-# Modular Admin Angular: Free Angular Project Dashboard based on [ModularAdmin](https://github.com/modularcode/modular-admin-html) Bootstrap Theme. 
+# Modular Admin Angular
 
-You can view the preview of Modular Admin here: [ModularAdmin Preview](http://modularcode.github.io/modular-admin-html/)
+Modular Admin Angular is an angular front-end application based on Modular Admin Bootstrap template [ModularAdmin](https://github.com/modularcode/modular-admin-html)
+
 
 ![Screenshot](https://github.com/jadsonjs/modular-admin-angular/blob/master/modular-admin-angular/src/assets/modular-admin/assets/demo.png)
+
+
+This project has no angular services, because it has not communication with back and, it is just a generic font-end project to be reference to build a full project.
+
+In this project we have two basic kinds of pages. One kind when the user is log in, that are pages inside the “internal” module, having the header, footer and side bar; and public pages, that are full page with no header or footer, like modular admin bootstrap template.
+	So the project structure is like this:
+-	app
+	-	app module
+	-	login module
+	-	not found module
+	-	others public pages…
+	-	internal module
+		-	dashboard module
+		-	form modules
+		-	tables modules
+		-	others internal modules…
+
 
 
 ## 1.Getting Started
@@ -31,3 +49,6 @@ ng server
 ```
 
 Open the web brower in http://localhost:4200
+
+
+
