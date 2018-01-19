@@ -2,15 +2,16 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ItemsRoutingModule } from './items-routing.module';
-import { EditComponent } from './edit/edit.component';
-import { ListComponent } from './list/list.component';
+
 import { ItemsComponent } from './items.component';
+import { ItemsEditComponent } from './items-edit/items-edit.component';
+import { ItemsListComponent } from './items-list/items-list.component';
 
 @NgModule({
   imports: [
     CommonModule,
     ItemsRoutingModule
   ],
-  declarations: [EditComponent, ListComponent, ItemsComponent]
+  declarations: [ItemsComponent, ItemsEditComponent, ItemsListComponent]
 })
 export class ItemsModule { }

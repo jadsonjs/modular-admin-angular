@@ -21,9 +21,12 @@ const routes: Routes = [
               //{ path: '', component: DashboardComponent } // without lazyload
               //{ path: '', loadChildren: './dashboard/dashboard.module#DashboardModule' } // with lazyload without redirect
               { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-              { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
-              { path: 'forms', loadChildren: './forms/forms.module#FormsModule' },
-              { path: 'items', loadChildren: './items/items.module#ItemsModule' }
+              { path: 'dashboard',   loadChildren:  './dashboard/dashboard.module#DashboardModule' },
+              { path: 'forms',       loadChildren:  './forms/forms.module#FormsModule' },
+              { path: 'items',       loadChildren:  './items/items.module#ItemsModule' },
+              { path: 'tables',      loadChildren:  './tables/tables.module#TablesModule' },
+              { path: 'charts',      loadChildren:  './charts/charts.module#ChartsModule' },
+              { path: 'ui-elements', loadChildren:  './ui-elements/ui-elements.module#UiElementsModule' }
           ]
      }
 

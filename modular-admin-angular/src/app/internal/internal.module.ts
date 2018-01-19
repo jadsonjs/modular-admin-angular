@@ -10,6 +10,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 import { DashboardModule } from './dashboard/dashboard.module';
 
+
 @NgModule({
   /*  makes the exported declarations of other modules available in the current module
    *  The RoutingModule of the module needs to be imported also

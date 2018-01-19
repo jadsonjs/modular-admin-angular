@@ -1,14 +1,14 @@
 # Modular Admin Angular
 
-Modular Admin Angular is an angular front-end application based on Modular Admin Bootstrap template [ModularAdmin](https://github.com/modularcode/modular-admin-html)
+Modular Admin Angular is an angular front-end application based on [ModularAdmin](https://github.com/modularcode/modular-admin-html) Bootstrap template 
 
 
 ![Screenshot](https://github.com/jadsonjs/modular-admin-angular/blob/master/modular-admin-angular/src/assets/modular-admin/assets/demo.png)
 
 
-This project has no angular services, because it has not communication with back and, it is just a generic font-end project to be reference to build a full project.
+This project has no angular services, because it has not communication with back-end, it is just a generic font-end project to be reference to build a full project.
 
-In this project we have two basic kinds of pages. One kind when the user is log in, that are pages inside the “internal” module, having the header, footer and side bar; and public pages, that are full page with no header or footer, like modular admin bootstrap template.
+In this project we have two basic kinds of pages. One kind when the user is log in, that are pages inside the “internal” module, having the header, footer and side bar; and public pages, that are full page with no header or footer, like they are in modular admin basic project that this angular project was based on.
 	So the project structure is like this:
 -	app
 	-	app module
