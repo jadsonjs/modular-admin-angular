@@ -10,16 +10,22 @@ This project has no angular services, because it has not communication with back
 
 In this project we have two basic kinds of pages. One kind when the user is log in, that are pages inside the “internal” module, having the header, footer and side bar; and public pages, that are full page with no header or footer, like they are in modular admin basic project that this angular project was based on.
 	So the project structure is like this:
--	app
-	-	app module
-	-	login module
-	-	not found module
-	-	others public pages…
-	-	internal module
-		-	dashboard module
-		-	form modules
-		-	tables modules
-		-	others internal modules…
+	
+```
+├── app/                           
+|   ├── app module/                       # root module of all angular projects
+|   └── login module /                    # login public page
+|   └── sign up module /                  # sign up public pages
+|   └── others public modules /           # 404, 505, etc...
+|   └── ...
+|   └── internal module /                 # all internal pages are here
+│   |   ├── dashboard module/             # dashboard
+│   |   ├── form module/                  # form pages
+│   |   ├── tables module/                # tables pages
+│   |   ├── others module/                # items, ui elements, etc..
+│   |   ├── ...
+
+```
 
 
 
