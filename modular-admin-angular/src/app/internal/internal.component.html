@@ -1,0 +1,36 @@
+
+
+<!--
+  == All internal pages will have header side-bar and footer
+  -->
+
+<div class="main-wrapper">
+
+    <div class="app" id="app">
+
+      <!--
+        == The Global header of apllication
+        -->
+        <app-header></app-header>
+        <!--
+          == The side bar with the application menu
+          -->
+        <app-sidebar></app-sidebar>
+
+        <!--
+          ==      By default the is dashbord    ==
+          ========================================
+          -->
+        <router-outlet></router-outlet>
+        <!--
+          ========================================
+          -->
+
+        <!--
+        == The Global footer of application
+        -->
+        <app-footer></app-footer>
+
+    </div>
+
+</div>
