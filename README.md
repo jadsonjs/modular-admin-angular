@@ -34,7 +34,7 @@ In this project we have two basic kinds of pages. One kind when the user is log 
 ```
 
 
-**Observation:** The original modular admin bootstrap project where this angular project wa based in inside the src/assets directory.
+**Observation:** The original modular admin bootstrap project that this angular project was based is inside the _"src/assets"_ directory.
 
 
 ## 1.Introduction
