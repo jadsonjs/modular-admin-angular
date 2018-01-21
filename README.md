@@ -1,6 +1,6 @@
 # Modular Admin Angular
 
-Modular Admin Angular is an angular front-end application based on [ModularAdmin](https://github.com/modularcode/modular-admin-html) Bootstrap template 
+Modular Admin Angular is an **Angular 4** front-end application based on [ModularAdmin](https://github.com/modularcode/modular-admin-html) Bootstrap template 
 
 
 ![Screenshot](https://github.com/jadsonjs/modular-admin-angular/blob/master/modular-admin-angular/src/assets/modular-admin/assets/demo.png)
@@ -9,37 +9,57 @@ Modular Admin Angular is an angular front-end application based on [ModularAdmin
 This project has no angular services, because it has not communication with back-end, it is just a generic font-end project to be adapted to a full project.
 
 
-### Version 0.9 - morris an flow charts error, problems and came back to the dashbord form public page
+**Version 0.9 - almost finished**
 
 
 In this project we have two basic kinds of pages. One kind when the user is log in, that are pages inside the “internal” module, having the header, footer and side bar; and public pages, that are full page with no header or footer, like they are in modular admin basic project that this angular project was based on.
 	So the project structure is like this:
 	
 ```
-├── app/                           
-|   ├── app module/                       # root module of all angular projects
-|   └── login module /                    # login public page
-|   └── sign up module /                  # sign up public pages
-|   └── others public modules /           # 404, 505, etc...
-|   └── ...
-|   └── internal module /                 # all internal pages are here
-│   |   ├── dashboard module/             # dashboard
-│   |   ├── form module/                  # form pages
-│   |   ├── tables module/                # tables pages
-│   |   ├── others module/                # items, ui elements, etc..
-│   |   ├── ...
+├── src/
+|   ├── assets/                               # third-party static js and css files
+|   |   └── modular-admin /                   # original boostrap project                          
+|   ├── app/                                  # root module of all angular projects
+|   |   └── login /                           # login public page
+|   |   └── signup /                          # sign up public pages
+|   |   └── others public modules /           # 404, 505, etc...
+|   |   └── ...
+|   |   └── internal module /                 # all internal pages are here
+│   |   |   └── dashboard/                    # main internal page
+│   |   |   └── form/                         # form pages
+│   |   |   └── tables/                       # tables pages
+│   |   |   └── others internal modules/      # items, ui elements, etc..
+│   |   |   └── ...
 
 ```
 
 
+**Observation:** The original modular admin bootstrap project where this angular project wa based in inside the src/assets directory.
 
-## 1.Getting Started
+
+## 1.Introduction
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
+
+@angular/cli: 1.5.5
+@angular-devkit/build-optimizer: 0.0.38
+@angular-devkit/core: 0.0.25
+@angular-devkit/schematics: 0.0.48
+@ngtools/json-schema: 1.1.0
+@ngtools/webpack: 1.8.5
+@schematics/angular: 0.1.13
+@schematics/schematics: 0.0.13
+typescript: 2.4.2
+webpack: 3.8.1
+
+
+## 2.Getting Started
 
 ```
 git clone https://github.com/jadsonjs/modular-admin-angular.git
 ```
 
-## 2. Install Node.js and Angular/CLI
+## 3. Install Node.js and Angular/CLI
 
 As all Angular project, you need to have [NodeJs](https://nodejs.org/en/) with npm. 
 
@@ -50,7 +70,7 @@ npm install -g typescript
 npm install -g @angular/cli
 ```
 
-## 3. Build the project
+## 4. Build the project
 
 ```
 cd modular-admin-angular
@@ -61,4 +81,9 @@ ng server
 Open the web brower in http://localhost:4200
 
 
+## 5. Build for production
 
+
+```
+ng build --prod
+```
