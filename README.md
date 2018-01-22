@@ -94,7 +94,7 @@ Open the web brower in http://localhost:4200
 
 ## 5. Build for production
 
-Change the <base href="/"> in the index.html file to the name of your application, example: _<base href="/myapp">_
+Change the ``<base href="/">`` in the index.html file to the name of your application, example:  ``<base href="/myapp">``
 
 build the project:
 
